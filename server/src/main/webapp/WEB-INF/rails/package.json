@@ -18,7 +18,7 @@
   "dependencies": {
     "@shopify/draggable": "^1.0.0-beta.12",
     "@types/html-minifier-terser": "^5.1.1",
-    "angular": "file:node-vendor/angular",
+    "angular": "1.8.0",
     "awesomplete": "^1.1.5",
     "bourbon": "^7.0.0",
     "chart.js": "^2.9.4",
