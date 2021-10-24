@@ -12,9 +12,9 @@ gem 'dynamic_form'
 gem 'roar', '1.0.1'
 gem 'representable', '2.1.7'
 
-gem 'js-routes'
-gem 'ts_routes'
-gem 'versionist'
+gem 'js-routes', '>= 1.4.9'
+gem 'ts_routes', '>= 1.0.2'
+gem 'versionist', '>= 2.0.1'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
@@ -32,10 +32,10 @@ end
 
 group :test do
   gem 'capybara', '2.15.4'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 3.9.1'
   gem 'rspec-instafail', require: false
   gem 'rspec_junit_formatter'
-  gem 'rails-controller-testing'
+  gem 'rails-controller-testing', '>= 1.0.4'
 end
 
 group :development do
