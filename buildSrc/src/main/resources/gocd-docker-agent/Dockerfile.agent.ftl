@@ -17,7 +17,7 @@
 # Please file any issues or PRs at https://github.com/gocd/gocd
 ###############################################################################################
 
-FROM alpine:latest as gocd-agent-unzip
+FROM alpine:3.15 as gocd-agent-unzip
 
 ARG UID=1000
 
