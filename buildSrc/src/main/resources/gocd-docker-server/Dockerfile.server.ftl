@@ -17,7 +17,7 @@
 # Please file any issues or PRs at https://github.com/gocd/gocd
 ###############################################################################################
 
-FROM alpine:latest as gocd-server-unzip
+FROM alpine:3.15.4 as gocd-server-unzip
 ARG UID=1000
 <#if useFromArtifact >
 COPY go-server-${fullVersion}.zip /tmp/go-server-${fullVersion}.zip
